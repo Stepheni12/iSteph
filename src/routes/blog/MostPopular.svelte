@@ -3,7 +3,7 @@
 			<h3 class="mb-4 text-2xl font-bold tracking-tight text-black dark:text-white md:text-4xl">
 				Most Popular
 			</h3>
-
+			<!--
 			<a
 				class="w-full text-gray-900 hover:text-yellow-600 hover:no-underline dark:text-gray-100 dark:hover:text-yellow-100"
 				href="/welcome"
@@ -48,6 +48,8 @@
 					>
 						Notice that the URL changes as you filter and search on this page.
 					</p>
-				</div></a
-			>
+				</div>
+			</a>
+			-->
+
 		</section>

@@ -1,16 +1,12 @@
 
 ## About
 
-Hey, I'm Stephen! I've previously worked a few roles in AI, the last being a 'Computer Vision Research Engineer'. I haven't worked full time in about year, and this site is primarily for this blog which is about me trying to make it back into the field. I've been struggling to find work this time around so now I am trying to take a bit of a different approach, I am going to try to make the work find me. 
+Hey, I'm Stephen! I've previously worked a few roles in AI, the last being a computer vision research engineer. I haven't worked full time in about year, and this site is primarily for this blog which is about me trying to make it back into the field. I've been struggling to find work this time around so now I am trying to take a bit of a different approach, I am going to try to make the work find me. 
 
-The inspiration behind this approach is entirely inspired by [Learning in Public](https://www.swyx.io/learn-in-public) and [<-Video where I found this](https://www.youtube.com/watch?v=Al4bwR--BgY)
+The inspiration behind this approach is entirely inspired by [Learning in Public](https://www.swyx.io/learn-in-public) and [this video](https://www.youtube.com/watch?v=Al4bwR--BgY).
 
-You can find me on [Twitter](https://twitter.com/intent/user?screen_name=_isteph_), [Github](https://github.com/Stepheni12)!
 
-### Socials
 
-🔗 [Twitter](https://twitter.com/_isteph_), [GitHub](https://github.com/Stepheni12).
+## Socials
 
-## Tech behind this site
-
-See https://swyxkit.netlify.app/about to clone Swyx's boilerplate.
+You can find me on [Twitter](https://twitter.com/intent/user?screen_name=_isteph_) and [Github](https://github.com/Stepheni12)!
