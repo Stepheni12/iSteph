@@ -87,7 +87,7 @@
 		{SITE_TITLE} Blog
 	</h1>
 	<p class="mb-4 text-gray-600 dark:text-gray-400">
-		In total, I've written {items.length} articles on my blog. Use the search below to
+		Still a work in progress. In total, I've written {items.length} articles on my blog. Use the search below to
 		filter by title.
 	</p>
 	<div class="relative mb-4 w-full">

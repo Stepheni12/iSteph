@@ -53,7 +53,7 @@
 				with Stephen Iezzi
 			</h2>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
-				Documenting the journey of the steps I'm taking to make a career out of machine learning, but a little bit different this time around! Right now I am no where near where I'd like to be, but this website is an attempt to step out of my comfort zone and be more public about what I am working on. I am looking forward to making mistakes along the way and learning from them!
+				Documenting the journey of the steps I'm taking to reverse engineer a career in machine learning! Right now I am no where near where I'd like to be, but this website is an attempt to step out of my comfort zone and be more public about what I am working on. I am looking forward to making mistakes along the way and learning from them!
 			</h2>
 		</div>
 		<!-- <div
