@@ -58,8 +58,8 @@
 	{#if json.subtitle}
 		<meta property="subtitle" content={json.subtitle} />
 	{/if}
-	<meta name="Description" content={json.description || 'swyxkit blog'} />
-	<meta property="og:description" content={json.description || 'swyxkit blog'} />
+	<meta name="Description" content={json.description || 'Stephen blog'} />
+	<meta property="og:description" content={json.description || 'Stephen blog'} />
 	<meta name="twitter:card" content={'summary'} />
 	<!-- no more summary_large_image because elon https://twitter.com/simonw/status/1725285182159417806 -->
 	<meta name="twitter:creator" content={'@' + MY_TWITTER_HANDLE} />
@@ -78,7 +78,7 @@
 	<div
 		class="flex justify-between w-full mt-2 bg border-red sm:items-start md:flex-row md:items-center"
 	>
-		<p class="flex items-center text-sm text-gray-700 dark:text-gray-300">swyx</p>
+		<p class="flex items-center text-sm text-gray-700 dark:text-gray-300">Stephen</p>
 		<p class="flex items-center text-sm text-gray-600 dark:text-gray-400">
 			<a href={json.ghMetadata.issueUrl} rel="external noreferrer" class="no-underline" target="_blank">
 				<!-- <span class="mr-4 font-mono text-xs text-gray-700 text-opacity-70 dark:text-gray-300"
