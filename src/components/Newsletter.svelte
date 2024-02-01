@@ -20,7 +20,7 @@
 		$isNewsletterOpen = !$isNewsletterOpen;
 	}
 </script>
-
+<!--
 <section class="mb-16 w-full" id="newsletter">
 	<div
 		class="my-4 w-full border-y border-blue-200 bg-blue-50 p-6 dark:border-gray-600 dark:bg-gray-800 sm:rounded sm:border-x"
@@ -65,7 +65,7 @@
 		{#if isNewsletterOpen}
 			<p class="my-1 text-gray-800 dark:text-gray-200">
 				Get emails from me about <span class="font-bold"
-					>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, ducimus.</span
+					>all the things I'm working on</span
 				>.
 			</p>
 
@@ -91,8 +91,9 @@
 				>
 			</form>
 			<p class="text-sm text-gray-800 dark:text-gray-200">
-				5,432 subscribers including my Mom – <a href="/#newsletter">123 issues</a>
+				2 subscribers including my Mom. You can be number 3, it's a great number! – <a href="/#newsletter">123 issues</a>
 			</p>
 		{/if}
 	</div>
 </section>
+-->

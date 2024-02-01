@@ -47,6 +47,14 @@
 			>
 				GitHub
 			</a>
+			<a
+				class="text-gray-500 transition hover:text-gray-300"
+				target="_blank"
+				rel="noopener noreferrer"
+				href={'https://www.linkedin.com/in/stepheniezzi/'}
+			>
+				LinkedIn
+			</a>
 			<!-- <a
 				class="text-gray-500 transition hover:text-gray-300"
 				target="_blank"
