@@ -1,7 +1,7 @@
 
 ## About
 
-Hey, I'm Stephen! I've previously worked a few roles in AI, the last being a computer vision research engineer. I haven't worked full time in about year, and this site is primarily for this blog which is about me trying to make it back into the field. I've been struggling to find work this time around so now I am trying to take a bit of a different approach, I am going to try to make the work find me. 
+Hey, I'm Stephen! I've previously worked a few roles in machine learning, the last being a computer vision research engineer. This site is primarily for this blog which is about me trying to be more public with my work. By being more public with what I am working on I am hoping that it leads to more work finding me, as opposed to having to seek out every opportunity. My goal is to make a career out of working freelance in machine learning.
 
 The inspiration behind this approach is entirely inspired by [Learning in Public](https://www.swyx.io/learn-in-public) and [this video](https://www.youtube.com/watch?v=Al4bwR--BgY).
 
