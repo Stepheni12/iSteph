@@ -38,7 +38,7 @@
 
 	// https://github.com/leeoniya/uFuzzy#options
 	// we know this has js weight, but we tried lazyloading and it wasnt significant enough for the added complexity
-	// https://github.com/sw-yx/swyxkit/pull/171
+	// https://github.com/swyxio/swyxkit/pull/171
 	// this will be slow if you have thousands of items, but most people don't
 	let isTruncated = items?.length > 20;
 	
@@ -48,16 +48,19 @@
 	// with a fallback to a simple filter function
 	let loaded = false;
 	const filterCategories = async (_items, _, s) => {
-		if (!$selectedCategories?.length) return _items;
+		if ($selectedCategories?.length) {
+			_items = _items.filter((item) => {
+					return $selectedCategories
+						.map((element) => {
+							return element.toLowerCase();
+						})
+						.includes(item.category.toLowerCase());
+				})
+		}
+		if (s?.length) {
+			_items = _items.filter((item) => item.toString().toLowerCase().includes(s));
+		}
 		return _items
-			.filter((item) => {
-				return $selectedCategories
-					.map((element) => {
-						return element.toLowerCase();
-					})
-					.includes(item.category.toLowerCase());
-			})
-			.filter((item) => item.toString().toLowerCase().includes(s));
 	};
 	$: searchFn = filterCategories;
 	function loadsearchFn() {
@@ -70,9 +73,12 @@
 	if ($search) loadsearchFn()
 	/** @type import('$lib/types').ContentItem[]  */
 	let list;
-	$: searchFn(items, $selectedCategories, $search).then(_items => list = _items);
-
-	// .slice(0, isTruncated ? 2 : items.length);
+	$: searchFn(items, $selectedCategories, $search)
+	.then(_items => {
+		list = _items
+		.slice(0, isTruncated ? 2 : items.length);
+	});
+	// $: console.log({list})
 </script>
 
 <svelte:head>
